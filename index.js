@@ -11,6 +11,8 @@ app.get("/produtos", function(req,res){
     res.sendFile(filePath);
 })
 
+console.log("Hello World");
+
 app.get("/sobre", function(req,res){
     const filePath = path.join(__dirname, "sobre.html");
     res.sendFile(filePath);
