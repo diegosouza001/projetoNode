@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Camisas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #007BFF;
+            color: white;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            max-width: 100%;
+            border-bottom: 1px solid #ddd;
+        }
+        .card h2 {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+        .card p {
+            font-size: 1rem;
+            color: #333;
+            margin: 10px 0;
+        }
+        .card button {
+            margin: 10px 0 20px;
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .card button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Camisas</h1>
+    </header>
+    <div class="container">
+        <div class="card">
+            <img src="https://via.placeholder.com/250x250" alt="Camisa 1">
+            <h2>Camisa Branca</h2>
+            <p>R$ 49,90</p>
+            <button>Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/250x250" alt="Camisa 2">
+            <h2>Camisa Preta</h2>
+            <p>R$ 59,90</p>
+            <button>Comprar</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/250x250" alt="Camisa 3">
+            <h2>Camisa Azul</h2>
+            <p>R$ 55,90</p>
+            <button>Comprar</button>
+        </div>
+    </div>
+</body>
+</html>
